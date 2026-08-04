@@ -4,7 +4,7 @@ import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gsta
 import { getFirestore, collection, doc, getDoc, getDocs, setDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA_Ag6zyRpvcYTAHSZc2i05JZyEaq1GbVQ",
+  apiKey: "AIzaSyA_Ag6zyRpvcYTAHSZc2j05JZyEaq1GbVQ",
   authDomain: "acilin-enleri.firebaseapp.com",
   projectId: "acilin-enleri",
   storageBucket: "acilin-enleri.firebasestorage.app",
