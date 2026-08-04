@@ -6,7 +6,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA_Ag6zyRpvcYTAHSZc2i05JZyEaq1GbYQ",
+  apiKey: "AIzaSyA_Ag6zyRpycYTAHSZc2j05JZyEaq1GbVQ",
   authDomain: "acilin-enleri.firebaseapp.com",
   projectId: "acilin-enleri",
   storageBucket: "acilin-enleri.firebasestorage.app",
