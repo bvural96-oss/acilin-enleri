@@ -482,9 +482,13 @@ function renderResults(votes, active, message="") {
     ...p,
     ...stats[p.id],
     firstPercent: stats[p.id].first / total * 100
-  })).sort((a,b) =>
-    b.first-a.first || b.points-a.points || b.second-a.second || b.third-a.third || a.name.localeCompare(b.name,"tr")
-  );
+  })).sort((a, b) =>
+  b.points - a.points ||
+  b.first - a.first ||
+  b.second - a.second ||
+  b.third - a.third ||
+  a.name.localeCompare(b.name, "tr")
+);
 
   appNode.innerHTML = `
   <section class="shell"><div class="panel">
