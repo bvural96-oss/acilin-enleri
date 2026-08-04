@@ -520,8 +520,8 @@ function resultRow(p,i,total) {
       <span style="position:relative;width:44px;height:44px;flex:0 0 auto;overflow:hidden;border-radius:50%;background:#27272a">${media(p,true)}</span>
       <span class="rank-name">${p.name} <span class="small">1.: ${p.first} · 2.: ${p.second} · 3.: ${p.third}</span></span>
     </div>
-    <div class="bar"><span style="width:${Math.min(p.firstPercent,100)}%"></span></div>
-    <div class="percent">%${p.firstPercent.toFixed(1)}</div>
+    <div class="bar"><span style="width:${Math.min((p.points / (total * 3)) * 100, 100)}%"></span></div>
+    <div class="percent">${p.points} puan</div>
   </div>`;
 }
 
